@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/eab8c3459d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stand By Me</title>
+</head>
+<body id="home">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="" class="logo"><img src="img/STM_logo_black.png" alt=""></a>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>STAND by ME</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorum autem, reiciendis cum nam debitis pariatur hic dolor? Exercitationem, error.</p>
+                <h2>Get in touch with...</h2>
+                <a href="#" class="btn">Desing</a>
+                <a href="#" class="btn">Me</a>
+            </div>
+            <img src="img/Layer 1.png" alt="">
+        </div>
+    </section>
+
+    <!-- Overlay Text -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Lorem, ipsum dolor</h3>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint consequuntur, voluptas amet maxime consectetur odio quo repellendus doloremque officiis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <div class="section-c">
+        <div class="gallery">
+            <a href="../dist/img/gallery/1.jpg" class="big"><img src="../dist/img/gallery/1.jpg" alt=""/></a>
+            <a href="../dist/img/gallery/2.jpg" class="big"><img src="../dist/img/gallery/2.jpg" alt=""/></a>
+            <a href="../dist/img/gallery/3.jpg" class="big"><img src="../dist/img/gallery/3.jpg" alt=""/></a>
+            <a href="../dist/img/gallery/4.jpg" class="big"><img src="../dist/img/gallery/4.jpg" alt=""/></a>
+            <a href="../dist/img/gallery/5.jpg" class="big"><img src="../dist/img/gallery/5.jpg" alt=""/></a>
+            <a href="../dist/img/gallery/6.jpg" class="big"><img src="../dist/img/gallery/6.jpg" alt=""/></a>
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="section-d">
+        <div class="container">
+            <div class="products">
+                <div class="product">
+                    <div class="circle">
+                        <img src="img/cherry.png" alt="">
+                    </div>
+                    <h3>Cherry</h3>
+                </div>
+                <div class="product">
+                    <div class="circle">
+                        <img src="img/walnut.png" alt="">
+                    </div>
+                    <h3>Walnut</h3>
+                </div>
+                <div class="product">
+                    <div class="circle">
+                        <img src="img/white_oak.png" alt="">
+                    </div>
+                    <h3>White Oak</h3>
+                </div>
+            </div>
+            <a href="#" class="btn">Buy for 48€</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Lorem ipsum dolor sit</h2>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>  
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>  
+                <a href="https://youtube.com">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>  
+            </div>
+            <div>
+                <h3>Comany Info</h3>
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                    <li><a href="#">Lorem, ipsum dolor</a></li>
+                    <li><a href="#">Lorem, ipsum dolor</a></li>
+                    <li><a href="#">Lorem, ipsum dolor</a></li>
+                    <li><a href="#">Lorem, ipsum dolor</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email">
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(() => {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+</html>
